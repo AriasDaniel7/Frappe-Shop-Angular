@@ -1,0 +1,39 @@
+/* inicio e img principal */
+#inicio {
+  width: 100%;
+  height: 100vh;
+  /* border: 10px solid #40332A; */
+  overflow: hidden;
+  background-image: url('../../assets/Inicio.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+  justify-content: flex-end;
+}
+
+#inicio h1 {
+  color: var(--text-light);
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin: 0;
+  animation-name: entrada;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+}
+
+#inicio h3 {
+  color: var(--text-light);
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  animation-name: entrada;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+}

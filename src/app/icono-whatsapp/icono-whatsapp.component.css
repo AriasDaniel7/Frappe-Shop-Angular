@@ -1,0 +1,21 @@
+.icon-whatsapp {
+  display: grid;
+  place-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 100%;
+  background-color: var(--text-light);
+  transition: transform .2s;
+}
+
+.icon-whatsapp>a {
+  font-size: 2rem;
+  padding: 10px;
+  margin-bottom: -5px;
+  color: var(--text-dark);
+}
+
+.icon-whatsapp:hover {
+  transform: scale(1.1);
+}

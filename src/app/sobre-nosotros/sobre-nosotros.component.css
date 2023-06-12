@@ -1,0 +1,82 @@
+/* nuestros productos y sobre nosotros*/
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  overflow-wrap: break-word;
+}
+
+.productos-title {
+  text-align: center;
+  color: var(--title-dark);
+  font-weight: 300;
+  font-size: 2.3rem;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* seccion sobre nosotros  */
+#sobreNosotros {
+  background-color: var(--title-dark);
+  color: var(--text-light);
+  padding-top: 2rem;
+}
+
+.nosotros-title {
+  text-align: center;
+  color: var(--text-light);
+  font-weight: 300;
+  font-size: 2.3rem;
+  padding-top: 35px;
+  margin: 0px;
+}
+
+.nosotros-description {
+  font-size: .8rem;
+  padding-top: 10px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.nosotros-icons {
+  display: flex;
+  padding: 0px 4.5rem;
+  justify-content: space-between;
+}
+
+.nosotros-icons>a {
+  color: var(--text-light);
+  margin: 0;
+  margin-top: 10px;
+  transition: transform .2s;
+}
+
+.nosotros-icons>a>i {
+  font-size: 40px;
+}
+
+.nosotros-icons>a:hover {
+  transform: scale(1.1);
+}
+
+.container-ubicacion {
+  width: 90%;
+  margin: auto;
+}
+
+.ubicacion-map {
+  width: 100%;
+  max-width: 950px;
+  height: 23.75rem;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.ubicacion-direccion {
+  margin-top: 6px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: .8rem;
+}

@@ -1,0 +1,76 @@
+/* barra de navegacion */
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 2.3rem;
+  background: #a633297d;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  padding: 5px 0px;
+  animation-name: entrada;
+  animation-duration: .5s;
+  transition: all 0.4s;
+}
+
+.navbar-open {
+  background: #a63329d5;
+  height: 8.3rem;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+  display: inline;
+  margin: auto;
+}
+
+.navbar-brand,
+.navbar-icon {
+  color: var(--text-light);
+  display: inline;
+  font-size: 1.3rem;
+}
+
+.navbar-brand p {
+  display: inline;
+  color: var(--text-light);
+  font-size: .9rem;
+  margin-left: 10px;
+}
+
+.navbar-icon {
+  display: inline;
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  margin-top: .2rem;
+  color: var(--text-light);
+  display: inline;
+  font-size: 1.3rem;
+}
+
+.navbar-icon .bi-x-lg {
+  display: none;
+}
+
+.navbar-nav-list {
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-nav-list li>a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 6px 0px;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-weight: 300;
+  transition: all .3s;
+}
+
+.navbar-nav-list li>a:hover {
+  transform: scale(1.1);
+  background-color: #732f351a;
+}

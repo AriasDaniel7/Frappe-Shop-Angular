@@ -1,0 +1,19 @@
+/* nuestros productos y sobre nosotros*/
+.container {
+  width: 90%;
+  margin: 60px auto;
+  margin-bottom: 0px;
+  overflow-wrap: break-word;
+  margin-bottom: 2rem;
+}
+
+.productos-title {
+  text-align: center;
+  color: var(--title-dark);
+  font-weight: 300;
+  font-size: 2.3rem;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+
