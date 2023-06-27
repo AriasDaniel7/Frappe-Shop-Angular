@@ -1,0 +1,17 @@
+<swiper class="slider" [config]="config">
+    <ng-template class="contenido-slide" swiperSlide *ngFor="let frappe of frappes">
+        <div class="cards">
+            <article id="template-card">
+                <div class="card ocultar">
+                    <div class="card-img">
+                        <img [src]="'../../assets/' + frappe.img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h2>{{ frappe.nombre }}</h2>
+                        <p>$<span>{{ frappe.precio }}</span></p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </ng-template>
+</swiper>

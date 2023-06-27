@@ -10,6 +10,9 @@ import { CartsComponent } from './carts/carts.component';
 import { FooterComponent } from './footer/footer.component';
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 import { IconoWhatsappComponent } from './icono-whatsapp/icono-whatsapp.component';
+import { SwiperModule } from 'swiper/angular';
+import { SliderComponent } from './slider/slider.component';
+
 
 @NgModule({
   declarations: [
@@ -20,11 +23,13 @@ import { IconoWhatsappComponent } from './icono-whatsapp/icono-whatsapp.componen
     CartsComponent,
     FooterComponent,
     SobreNosotrosComponent,
-    IconoWhatsappComponent
+    IconoWhatsappComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
